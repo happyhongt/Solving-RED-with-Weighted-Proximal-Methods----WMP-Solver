@@ -32,9 +32,9 @@
 %   DenoiserCount - the number of calling denoiser.
 %   im_set - array of set of images taken after the kth iteration.
 % -------------------------------------------------------------------------
-% Note that this function needs additional function to use.
-% See details in ReadMe file.
-% Weighted proximal method -- Second order method
+% Note that this function needs additional functions to use.
+% See details in the ReadMe file.
+% Weighted proximal methods -- Second order methods
 % One may add a line search method as a SafeGuard but it may dramatically
 % increase the complexity as we claimed in the paper. 
 % -------------------------------------------------------------------------
