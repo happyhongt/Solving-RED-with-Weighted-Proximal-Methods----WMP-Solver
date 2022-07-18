@@ -178,7 +178,7 @@ for k = 1:outer_iters
             temp_2 = temp_1'*s_k(:);
             if abs(temp_2)<=1e-8*norm(s_k(:))*norm(temp_1(:))
                 B = B_0;
-                Bx = @(x)(B(x));
+                Bx = @(x)(B*x);
             else
                 if tau_BB2<0
                     B = lambda;
