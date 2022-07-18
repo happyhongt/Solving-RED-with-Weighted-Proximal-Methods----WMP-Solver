@@ -174,7 +174,7 @@ for k = 1:outer_iters
             else
                 B_0 = Bx;
             end
-            temp_1 = y_k(:)-B_0(s_k(:));
+            temp_1 = y_k(:)-B_0*s_k(:);
             temp_2 = temp_1'*s_k(:);
             if abs(temp_2)<=1e-8*norm(s_k(:))*norm(temp_1(:))
                 B = B_0;
