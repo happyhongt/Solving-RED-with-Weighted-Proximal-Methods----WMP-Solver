@@ -4,3 +4,5 @@ Implement the WMP solver for the RED problem. See details of this algorithm via 
 In order to run this code, you need additional functions. See the codes in our previous paper ''[Acceleration of RED via Vector-Extrapolation](https://github.com/happyhongt/Acceleration-of-RED-via-Vector-Extrapolation)''. The easy way to use this function is to save it in the ''minimizers'' folder once you download the codes in our previous paper and then use it as other algorithms for RED. 
 
 If you find any bug or troubles to use this code, please shoot an email to Tao Hong: hongtao@cs.technion.ac.il. 
+
+https://hongtao-argmin.github.io
